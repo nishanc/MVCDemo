@@ -24,6 +24,6 @@ public class StudentController {
    }
 
    public void updateView(){				
-      _view.printStudentDetails(model.getName(), model.getRegNo());
+      _view.printStudentDetails(_model.getName(), _model.getRegNo());
    }	
 }
